@@ -1,8 +1,11 @@
 import { StyledHeader } from "./styles/Header.styled";
+import { Container } from "./styles/Container.styled";
 
 const Header = () => (
 	<StyledHeader>
-		<h1>Hubble</h1>
+		<Container>
+			<h1>Hubble</h1>
+		</Container>
 	</StyledHeader>
 );
 

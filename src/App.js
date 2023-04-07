@@ -1,7 +1,13 @@
 import { Container } from "./components/styles/Container.styled";
+import Header from "./components/Header";
 
 const App = () => {
-	return <Container>Hello world.</Container>;
+	return (
+		<>
+			<Header />
+			<Container>Hello world.</Container>
+		</>
+	);
 };
 
 export default App;
